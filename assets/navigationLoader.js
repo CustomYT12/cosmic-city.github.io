@@ -39,7 +39,15 @@ function make(desc) {
 window.addEventListener("load", () => {
   const nav = make([
     "nav",
-    ["div", ["section", ["button", "Home"]], ["section"]],
+    [
+      "div",
+      [
+        "section",
+        ["a", { href: "/" }, ["img", { src: "/logo.svg" }]],
+        ["a", { href: "/" }, ["button", "Home"]],
+      ],
+      ["section"],
+    ],
   ]);
   document.body.prepend(nav);
 });
