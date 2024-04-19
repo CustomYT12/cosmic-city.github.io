@@ -73,7 +73,7 @@ window.addEventListener("load", () => {
         [
           "a",
           { href: "/changelog" },
-          ["button", ["i", { className: "fa-solid fa-gear" }], "Changelog"],
+          ["button", ["i", { className: "fa-solid fa-wrench" }], "Changelog"],
         ],
       ],
     ],
