@@ -57,6 +57,11 @@ window.addEventListener("load", () => {
           { href: "/chat" },
           ["button", ["i", { className: "fa-solid fa-comments" }], "Chat"],
         ],
+        [
+          "a",
+          { href: "/news" },
+          ["button", ["i", { className: "fa-solid fa-newspaper" }], "News"],
+        ],
       ],
       [
         "section",
