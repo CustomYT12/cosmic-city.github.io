@@ -67,14 +67,15 @@ window.addEventListener("load", () => {
         "section",
         [
           "a",
-          { href: "/settings" },
-          ["button", ["i", { className: "fa-solid fa-gear" }], "Settings"],
-        ],
-        [
-          "a",
           { href: "/changelog" },
           ["button", ["i", { className: "fa-solid fa-wrench" }], "Changelog"],
         ],
+        [
+          "a",
+          { href: "/settings" },
+          ["button", ["i", { className: "fa-solid fa-gear" }], "Settings"],
+        ],
+        
       ],
     ],
   ]);
