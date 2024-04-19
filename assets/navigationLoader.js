@@ -1,4 +1,4 @@
-
+import { make } from "./modules/make.js"
 
 window.addEventListener("load", () => {
   const nav = make([
