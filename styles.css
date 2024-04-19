@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
 
 html,
 body {
@@ -68,6 +69,10 @@ nav div section {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+nav div section button i {
+  margin-right: 0.4rem;
 }
 
 nav div section img {

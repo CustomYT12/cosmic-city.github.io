@@ -45,8 +45,20 @@ window.addEventListener("load", () => {
         "section",
         ["a", { href: "/" }, ["img", { src: "/logo.svg" }]],
         ["a", { href: "/" }, ["button", "Home"]],
+        [
+          "a",
+          { href: "/games" },
+          ["button", ["i", { className: "fa-solid fa-gamepad" }], "Games"],
+        ],
       ],
-      ["section"],
+      [
+        "section",
+        [
+          "a",
+          { href: "/settings" },
+          ["button", ["i", { className: "fa-solid fa-gear" }], "Settings"],
+        ],
+      ],
     ],
   ]);
   document.body.prepend(nav);
