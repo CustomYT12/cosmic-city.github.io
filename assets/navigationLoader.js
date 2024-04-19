@@ -44,7 +44,7 @@ window.addEventListener("load", () => {
       [
         "section",
         ["a", { href: "/" }, ["img", { src: "/logo.svg" }]],
-        ["a", { href: "/" }, ["button", "Home"]],
+        ["a", { href: "/" }, ["button",["i", {className: "fa-solid fa-house"}], "Home"]],
         [
           "a",
           { href: "/games" },
