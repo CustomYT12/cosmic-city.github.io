@@ -52,6 +52,11 @@ window.addEventListener("load", () => {
           { href: "/games" },
           ["button", ["i", { className: "fa-solid fa-gamepad" }], "Games"],
         ],
+        [
+          "a",
+          { href: "/chat" },
+          ["button", ["i", { className: "fa-solid fa-comments" }], "Chat"],
+        ],
       ],
       [
         "section",
